@@ -1,5 +1,7 @@
 package com.spring.web.board.impl;
 
-public class BoardDAO {
+import java.sql.Connection;
 
+public class BoardDAO {
+public Connection conn = null;
 }
