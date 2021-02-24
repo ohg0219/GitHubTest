@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.spring.web.board.BoardVO;
 
-public interface Service {
+public interface BoardService {
 	BoardVO getBoard();
 	
 	List<BoardVO> getBoardList();

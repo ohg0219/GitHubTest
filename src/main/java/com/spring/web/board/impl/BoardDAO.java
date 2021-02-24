@@ -8,7 +8,7 @@ import java.util.List;
 
 import com.spring.web.board.BoardVO;
 
-public class BoardDAO implements Service {
+public class BoardDAO implements BoardService {
 	
 	public Connection conn = null;
 	public PreparedStatement pstmt = null;
