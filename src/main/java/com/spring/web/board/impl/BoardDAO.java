@@ -16,8 +16,12 @@ public class BoardDAO implements BoardService {
 	
 	final String GET_BOARD = "select * from myboard where seq = ?";
 	
+	
+	
+	
+	
 	@Override
-	public BoardVO getBoard() {
+	public BoardVO getBoard(int seq) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -35,6 +39,12 @@ public class BoardDAO implements BoardService {
 	}
 	@Override
 	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void insertBoard(BoardVO vo) {
 		// TODO Auto-generated method stub
 		
 	}
