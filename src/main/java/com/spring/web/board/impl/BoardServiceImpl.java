@@ -7,7 +7,7 @@ import com.spring.web.board.BoardVO;
 public class BoardServiceImpl implements BoardService {
 
 	@Override
-	public BoardVO getBoard(int seq) {
+	public BoardVO getBoard() {
 		return null;
 	}
 
@@ -23,12 +23,6 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public void update() {
-		
-	}
-
-	@Override
-	public void insertBoard(BoardVO vo) {
-		// TODO Auto-generated method stub
 		
 	}
 
