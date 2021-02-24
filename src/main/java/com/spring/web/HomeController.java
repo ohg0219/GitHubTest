@@ -31,9 +31,6 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
-		//aaaaaaaaaaaaaaaaaaaaaaaaaししししし
-		////////////////////////////////////////////////////
-		System.out.println("杭汽");
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
