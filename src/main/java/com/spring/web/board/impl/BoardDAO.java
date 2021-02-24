@@ -6,6 +6,8 @@ import com.spring.web.board.BoardVO;
 
 public class BoardDAO implements Service {
 
+	final String GET_BOARD = "select * from myboard where seq = ?";
+	
 	@Override
 	public BoardVO getBoard() {
 		// TODO Auto-generated method stub
