@@ -8,6 +8,5 @@ public class BoardDAO {
 public Connection conn = null;
 public PreparedStatement pstmt = null;
 public ResultSet rs = null;
-public int i = 0;
-public int j = 0;
+
 }
