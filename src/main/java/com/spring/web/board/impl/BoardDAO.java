@@ -21,7 +21,7 @@ public class BoardDAO implements Service {
 	}
 
 	@Override
-	public void up() {
+	public void update() {
 		// TODO Auto-generated method stub
 		
 	}

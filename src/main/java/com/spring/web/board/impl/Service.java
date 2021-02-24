@@ -11,5 +11,5 @@ public interface Service {
 	
 	void delete();
 	
-	void up();
+	void update();
 }
