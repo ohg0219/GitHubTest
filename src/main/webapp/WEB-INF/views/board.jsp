@@ -15,8 +15,8 @@
 			</tr>
 			<c:forEach var="vo" items="${list }">
 			<tr>
-				<td>${vo.cnt}</td>
-				<td><a href="#">${vo.title }</a></td>
+				<td>${vo.seq}</td>
+				<td><a href="getBoard?seq=${vo.seq}">${vo.title }</a></td>
 				<td>${vo.writer }</td>
 			</tr>
 			</c:forEach>
