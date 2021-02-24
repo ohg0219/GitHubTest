@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.spring.web.board.BoardVO;
 
 public class BoardDAO implements BoardService {
