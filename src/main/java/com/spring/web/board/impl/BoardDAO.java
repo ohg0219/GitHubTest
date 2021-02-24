@@ -6,9 +6,12 @@ import java.sql.ResultSet;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.spring.web.board.BoardVO;
 
-public class BoardDAO implements Service {
+@Service
+public class BoardDAO implements BoardService {
 	
 	public Connection conn = null;
 	public PreparedStatement pstmt = null;
@@ -24,7 +27,10 @@ public class BoardDAO implements Service {
 
 	@Override
 	public List<BoardVO> getBoardList() {
-		// TODO Auto-generated method stub
+		for(int i=0;i<=10; i++) {
+			
+			
+		}
 		return null;
 	}
 
