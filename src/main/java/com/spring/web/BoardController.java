@@ -13,7 +13,7 @@ import com.spring.web.board.BoardVO;
 @Controller
 public class BoardController {
 
-
+	//pushTest
 
 	@GetMapping("/board")
 	public String board(Model model) {
