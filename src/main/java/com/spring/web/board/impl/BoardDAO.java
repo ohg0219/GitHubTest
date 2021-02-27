@@ -20,7 +20,7 @@ public class BoardDAO implements BoardService {
 	
 	@Override
 	public BoardVO getBoard() {
-		// TODO Auto-generated method stub
+		System.out.println("¿¹ÁøÀÌÂ¯!!!!");
 		return null;
 	}
 
